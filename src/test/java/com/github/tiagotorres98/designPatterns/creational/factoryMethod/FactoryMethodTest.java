@@ -5,6 +5,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.github.tiagotorres98.designPatterns.creational.factoryMethod.transport.Airplane;
+import com.github.tiagotorres98.designPatterns.creational.factoryMethod.transport.Ship;
+import com.github.tiagotorres98.designPatterns.creational.factoryMethod.transport.Truck;
+
 @SpringBootTest
 public class FactoryMethodTest {
 
