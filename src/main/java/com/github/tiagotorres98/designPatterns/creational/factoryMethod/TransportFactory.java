@@ -6,6 +6,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.github.tiagotorres98.designPatterns.creational.factoryMethod.transport.Airplane;
+import com.github.tiagotorres98.designPatterns.creational.factoryMethod.transport.Ship;
+import com.github.tiagotorres98.designPatterns.creational.factoryMethod.transport.Truck;
+
 @Service
 public class TransportFactory implements ITransportFactory {
 
